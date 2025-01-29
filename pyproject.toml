@@ -52,9 +52,9 @@ dependencies = [
 "setuptools",
 "SMACT",
 "sympy>=1.11.1",
-"torch==2.2.1+cu118", 
-"torchvision==0.17.1+cu118",
-"torchaudio==2.2.1+cu118",
+"torch==2.2.1+cu121", 
+"torchvision==0.17.1+cu121",
+"torchaudio==2.2.1+cu121",
 "torch_cluster",
 "torch_geometric>=2.5",
 "torch_scatter",
@@ -70,12 +70,12 @@ include = ["mattergen*"]
 torch = { index = "pytorch" }
 torchvision = { index = "pytorch" }
 torchaudio = { index = "pytorch" }
-pyg-lib = { url = "https://data.pyg.org/whl/torch-2.2.0%2Bcu118/pyg_lib-0.4.0%2Bpt22cu118-cp310-cp310-linux_x86_64.whl" }
-torch_cluster = { url = "https://data.pyg.org/whl/torch-2.2.0%2Bcu118/torch_cluster-1.6.3%2Bpt22cu118-cp310-cp310-linux_x86_64.whl" }
-torch_scatter = { url = "https://data.pyg.org/whl/torch-2.2.0%2Bcu118/torch_scatter-2.1.2%2Bpt22cu118-cp310-cp310-linux_x86_64.whl" }
-torch_sparse = { url = "https://data.pyg.org/whl/torch-2.2.0%2Bcu118/torch_sparse-0.6.18%2Bpt22cu118-cp310-cp310-linux_x86_64.whl" }
+pyg-lib = { url = "https://data.pyg.org/whl/torch-2.2.0%2Bcu121/pyg_lib-0.4.0%2Bpt22cu121-cp310-cp310-linux_x86_64.whl" }
+torch_cluster = { url = "https://data.pyg.org/whl/torch-2.2.0%2Bcu121/torch_cluster-1.6.3%2Bpt22cu121-cp310-cp310-linux_x86_64.whl" }
+torch_scatter = { url = "https://data.pyg.org/whl/torch-2.2.0%2Bcu121/torch_scatter-2.1.2%2Bpt22cu121-cp310-cp310-linux_x86_64.whl" }
+torch_sparse = { url = "https://data.pyg.org/whl/torch-2.2.0%2Bcu121/torch_sparse-0.6.18%2Bpt22cu121-cp310-cp310-linux_x86_64.whl" }
 
 [[tool.uv.index]]
 name = "pytorch"
-url = "https://download.pytorch.org/whl/cu118"
+url = "https://download.pytorch.org/whl/cu121"
 explicit = true
